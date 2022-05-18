@@ -1,10 +1,5 @@
-#include<CL/cl2.hpp>
-#include<iostream>
-#include<vector>
-#include<fstream>
-#include<sstream>
-using namespace cl;
-using namespace std;
+#include"ch-2.h"
+
 
 const unsigned int INPUT_SIGNAL_WIDTH = 8;
 const unsigned int INPUT_SIGNAL_HEIGHT = 8;
@@ -53,13 +48,6 @@ void displayInfo() {
 		cout << platform_profile << ":" << platform_version << ":" << platform_vendor << endl;
 	}
 }
-
-void convolve() {
-	
-	
-
-}
-
 inline void checkErr(cl_int err, const string name) {
 	if (err != CL_SUCCESS) {
 		cerr << "ERROR: " << name << " " << err << endl;

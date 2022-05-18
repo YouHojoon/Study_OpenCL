@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClCompile Include="ch-1.cpp" />
     <ClCompile Include="ch-2.cpp" />
+    <ClCompile Include="ch-8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="convolution.cl" />
@@ -150,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch-2.h" />
+    <ClInclude Include="ch-8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

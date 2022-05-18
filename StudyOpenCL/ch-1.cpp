@@ -4,6 +4,9 @@
 #include<fstream>
 #include<sstream>
 #include "ch-2.h"
+#include "ch-8.h"
+
+
 
 using namespace std;
 using namespace cl;
@@ -12,10 +15,11 @@ Context create_context() noexcept(false);
 CommandQueue create_command_queue(Context context, Device &device) noexcept(false);
 Program create_program(Context context, Device device, const string file_name) noexcept(false);
 bool create_buffer_objects(Context context, Buffer memObjects[3], float* a, float* b);
+void ch1_main(void);
 
 int main(void) {
-	//ch1_main();
-	ch2_main();
+	ch8_main();
+	/*ch2_main();*/
 }
 
 
